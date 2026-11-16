@@ -45,6 +45,10 @@ def main():
     args = ap.parse_args()
 
     errors, rows, seen = [], {}, {}
+    missing_paths = [p for p in args.paths if not os.path.exists(p)]
+    for p in missing_paths:
+        errors.append('%s does not exist' % p)
+    args.paths = [p for p in args.paths if p not in missing_paths]
     for p in args.paths:
         sql = os.path.join(p, 'LocalizationDatabase_Data.sql')
         if os.path.isdir(p) and os.path.basename(os.path.normpath(p)) == 'Text':
