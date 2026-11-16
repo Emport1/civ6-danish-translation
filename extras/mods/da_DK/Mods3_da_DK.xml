@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for the Civ VI mod Detailed Wonder Reminder -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_BUILDING">
+			<Text>{1_CivName} [ICON_Turn] {2_Number}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_BUILT">
+			<Text>Bygget af {1_CivName}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_UNREVEAL">
+			<Text>ukendt sted</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_BUILT_TOOLTIP">
+			<Text>Bygget af {2_CivName} i tur {1_Turn}.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_TITLE">
+			<Text>Vidunderoversigt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_LAUNCH_NAME">
+			<Text>Vidunderoversigt[NEWLINE][NEWLINE]Viser byggestatus for hvert vidunder og de byer, der kan bygge det. Genvejstasten er K, som kan ændres under Indstillinger.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_CHECK_BUILT">
+			<Text>Bygget</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_CHECK_TO_BUILD">
+			<Text>Ikke bygget</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_SHOWN_CIVS">
+			<Text>Kendte oplysninger:</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_CITIES">
+			<Text>Byer, der kan bygge det:</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_CITY">
+			<Text>{1_CityName}: forventet [ICON_Turn] {2_Number}, producerer {3_String}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_CITY_IDLE">
+			<Text>{1_CityName}: forventet [ICON_Turn] {2_Number}, producerer intet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_NATIONAL_WONDER">
+			<Text>Nationalt vidunder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_CHECKBOX1_TT">
+			<Text>Vis eller skjul byggede vidundere.[NEWLINE]Genvejstasten er tallet "1" (på hovedtastaturet).</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_CHECKBOX2_TT">
+			<Text>Vis eller skjul vidundere under opførelse.[NEWLINE]Genvejstasten er tallet "2" (på hovedtastaturet).</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_CHECKBOX3_TT">
+			<Text>Vis eller skjul vidundere, der ikke er bygget.[NEWLINE]Genvejstasten er tallet "3" (på hovedtastaturet).</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_UI_KDWR">
+			<Text>Vis/skjul vidunderoversigt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_UI_KDWR_HELP">
+			<Text>Viser eller skjuler vidunderoversigten</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_NOTIFICATION_KNM_DWR_OTHER_START_BUILD_SUM">
+			<Text>En anden civilisation er begyndt at bygge {1_Wonder} og bliver færdig før os (om {2_Number}[ICON_Turn] ture).</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

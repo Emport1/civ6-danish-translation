@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for 5 Civ VI UI mods: Better Builder Charges Tracking, Extended Policy Cards, Policy Change Reminder, Quick Deals, Sukritact's Simple UI Adjustments -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_QD_OPTIONS_HOTKEY_OPEN_POPUP">
+			<Text>Åbn Hurtige handler</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_OPTIONS_HOTKEY_OPEN_POPUP_DESCRIPTION">
+			<Text>Åbner vinduet Hurtige handler. Af tekniske grunde skal vinduet lukkes med Esc.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_NAME">
+			<Text>Hurtige handler</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_SALE">
+			<Text>Salg</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_EXCHANGE">
+			<Text>Veksling</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_EACH">
+			<Text>Pr. stk.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_NO_AVAILABLE_DEAL">
+			<Text>Ingen mulige handler.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_NEW_DEALS_AVAILABLE">
+			<Text>Der er nye handler.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_ALL_GOLD_HINT">
+			<Text>De har budt alt det guld, de har.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_BULK_ADD">
+			<Text>[COLOR_Civ6Red]Hold Ctrl nede for at tilføje flere.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_CONVERT_ALL">
+			<Text>Højreklik for at omregne det hele.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_YOU_NEED">
+			<Text>Du skal bruge</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_RATIO">
+			<Text>Forhold</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER">
+			<Text>Virker ikke i flerspiller.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_TITLE">
+			<Text>Du har nye politikkort</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_DESC">
+			<Text>Du har lige låst op for nye politikkort.[NEWLINE]Det er gratis at skifte politikker og styreform i denne tur.[NEWLINE][NEWLINE]Vil du fortsætte uden at skifte?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_CHANGE">
+			<Text>Skift politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_CONTINUE">
+			<Text>Næste tur</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_NAME">
+			<Text>Skærmbilledtilstand</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_TT">
+			<Text>Venstreklik for at starte skærmbilledtilstand med de nuværende indstillinger. Højreklik for at åbne indstillingerne for skærmbilledtilstand.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_DESC">
+			<Text>Start skærmbilledtilstand.[NEWLINE][NEWLINE] Skærmbilledtilstand skjuler det meste eller hele brugerfladen, så du kan tage skærmbilleder uden noget i vejen.[NEWLINE][NEWLINE] Du kan flytte kortet med tasterne W, A, S og D, dreje med Q og E, holde Alt nede og bruge musehjulet til at ændre tidspunktet på dagen, og hvis fast hældning er slået til, kan du justere hældningen med Z og C. Kameraet drejer ikke tilbage, så længe tilstanden er slået til.[NEWLINE][NEWLINE] Tryk på Esc for at afslutte skærmbilledtilstand.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_SUK_SCREENSHOT_MODE">
+			<Text>Start {LOC_SUK_SCREENSHOT_MODE_NAME}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_SUK_SCREENSHOT_MODE_HELP">
+			<Text>Starter {LOC_SUK_SCREENSHOT_MODE_NAME}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_FIXED_TILT_NAME">
+			<Text>Brug fast hældning</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_FIXED_TILT_DESC">
+			<Text>Brug fast hældning i skærmbilledtilstand. Du kan justere hældningen ved at holde Alt nede og trække, eller med tasterne Z og C.[NEWLINE][NEWLINE][COLOR_RED]Advarsel: Visse vinkler og hældninger kan få spillet til at gå ned. Vær forsigtig![ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_UNIT_FLAG_NAME">
+			<Text>Skjul enhedsflag</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_UNIT_FLAG_DESC">
+			<Text>Skjul enhedsflag i skærmbilledtilstand.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_CITY_BANNER_NAME">
+			<Text>Skjul bybannere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_CITY_BANNER_DESC">
+			<Text>Skjul bybannere i skærmbilledtilstand.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_BORDERS_NAME">
+			<Text>Skjul grænser</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_BORDERS_DESC">
+			<Text>Skjul grænser i skærmbilledtilstand.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_MAP_LABELS_NAME">
+			<Text>Skjul kortetiketter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_MAP_LABELS_DESC">
+			<Text>Skjul kortetiketter i skærmbilledtilstand, hvis de ikke allerede er skjult.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_YIELDS_NAME">
+			<Text>Skjul udbytte</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_YIELDS_DESC">
+			<Text>Skjul udbytte i skærmbilledtilstand, hvis det ikke allerede er skjult.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_RESOURCE_ICONS_NAME">
+			<Text>Skjul ressourceikoner</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_RESOURCE_ICONS_DESC">
+			<Text>Skjul ressourceikoner i skærmbilledtilstand, hvis de ikke allerede er skjult.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_MAP_PINS_NAME">
+			<Text>Skjul kortnåle</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_MAP_PINS_DESC">
+			<Text>Skjul kortnåle i skærmbilledtilstand.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_CITY_YIELD_FROM_BUILDINGS_SUMMARY_TOOLTIP">
+			<Text>{Value : number +#.#;-#.#} fra bygninger (i alt)</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_CITY_YIELD_FROM_DISTRICTS_SUMMARY_TOOLTIP">
+			<Text>{Value : number +#.#;-#.#} fra distrikter (i alt)</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_CITY_GET_UNIT_PRODUCTION_MODIFIER">
+			<Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) til enheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_CITY_GET_BUILDING_PRODUCTION_MODIFIER">
+			<Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) til bygninger og vidundere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_CITY_GET_BUILDING_NON_WONDER_PRODUCTION_MODIFIER">
+			<Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) til bygninger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_DISTRICT_POPULATION_TOOLTIP">
+			<Text>Grænsen for antal distrikter stiger næste gang ved {2} [ICON_Citizen] befolkning. Lige nu kan du bygge op til {1} distrikter.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_CITY_YIELD_FROM_POPULATION_TOOLTIP">
+			<Text>{1} fra befolkning</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_CITY_YIELD_FROM_HAPPINESS_TOOLTIP">
+			<Text>{1}% ({2}) fra goder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_CITY_YIELD_FROM_HOUSING_TOOLTIP">
+			<Text>{1}% ({2}) fra boliger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_CITY_YIELD_FROM_OCCUPATION_TOOLTIP">
+			<Text>{1}% ({2}) fra besættelse</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_LOYALTY_HEADER_TOOLTIP">
+			<Text>Pres fra borgere i nærheden</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_LOYALTY_TOTAL_POPULATION_PRESSURE_TOOLTIP">
+			<Text>Samlet befolkningspres</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_LOYALTY_CAP_INFO_TOOLTIP">
+			<Text>Befolkningspresset afhænger af forholdet mellem indenlandsk og udenlandsk pres. Befolkningspresset kan aldrig blive mere end ±20.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_LOYALTY_CAP_TOOLTIP">
+			<Text>(begrænses til ±20)</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_SUK_RELIGION_TOOLTIP_PRESSURE_ICON">
+			<Text>[ICON_Religion]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_SUK_OTHER_ADJACENCY_BONUS">
+			<Text>Andre bonusser</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_CITY_YIELD_FROM_GREATWORKS_TOOLTIP">
+			<Text>{Value : number +#.#;-#.#} fra store værker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_CATEGORY_SUK_HOTKEYS">
+			<Text>Brugerflade (Sukritacts mods):</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

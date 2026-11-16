@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for 7 Civ VI UI mods: Better Loading Screen, Better Report Screen, Better Tech Tree, Detailed Map Tacks, More Lenses, Real Era Tracker, Real Great People -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_BRS_BARRIER">
+			<Text>Barriere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_BARRIER_MAINTENANCE">
+			<Text>Vedligeholdelse af stormflodsbarriere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_DETAILS">
+			<Text>Skjul byens detaljer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_FREE_BUILDINGS">
+			<Text>Skjul gratis bygninger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_FREE_UNITS">
+			<Text>Skjul gratis enheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_INACTIVE_POLICIES">
+			<Text>Skjul inaktive politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_NOT_MET_MINORS">
+			<Text>Skjul bystater, du ikke har mødt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_NO_IMPACT_MINORS">
+			<Text>Skjul bystater uden virkning</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_NO_IMPACT_POLICIES">
+			<Text>Skjul politikker uden virkning</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CO2">
+			<Text>CO2</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CURRENT_DEALS_INCOMING">
+			<Text>Indgående</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CURRENT_DEALS_OUTGOING">
+			<Text>Udgående</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_FROM_MODIFIERS">
+			<Text>Fra modifikatorer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_FROM_MODIFIERS_PERCENT">
+			<Text>Fra modifikatorer [COLOR_White]%[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HAVING_DISTRICTS">
+			<Text>For at have {1_Num : plural 1?{1} distrikt; other?{1} distrikter;}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_BUILDINGCOUNT">
+			<Text>Antal bygninger/distrikter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_BUILDINGNAME">
+			<Text>Bygning/distrikt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_CLASS">
+			<Text>Klasse</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_GROWTH">
+			<Text>Vækst</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_HAPPINESS">
+			<Text>Lykke</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_HEALTH">
+			<Text>Helbred</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_LEVEL">
+			<Text>Niveau</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_MISSION">
+			<Text>Mission</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_NUM_CHARGES">
+			<Text>Ladninger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_POLICY_NAME">
+			<Text>Politik</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_ROUTE">
+			<Text>Handelsrute</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_TYPE">
+			<Text>Type</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_YIELDS">
+			<Text>Udbytte</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_DARKAGE">
+			<Text>Politikker for mørk tidsalder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_DIPLOMATIC">
+			<Text>Diplomatiske politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_ECONOMIC">
+			<Text>Økonomiske politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_GREAT_PERSON">
+			<Text>Politikker for store personligheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_LEGACY">
+			<Text>Arvepolitikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_MILITARY">
+			<Text>Militære politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_PROD_BUILDINGS">
+			<Text>Til bygninger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_PROD_DISTRICTS">
+			<Text>Til distrikter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_PROD_UNITS">
+			<Text>Til enheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_SPECIALISTS">
+			<Text>Specialister</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_TOOLTIP_GARRISON">
+			<Text>Garnison</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_TOOLTIP_GOTOCITY">
+			<Text>Gå til denne by</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_TOOLTIP_LOOKATUNIT">
+			<Text>Vis denne enhed på kortet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_AIR">
+			<Text>Militær – luft</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_CIVILIAN">
+			<Text>Civile</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_GREAT_PERSON">
+			<Text>Store personligheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_LAND_COMBAT">
+			<Text>Militær – land</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_NAVAL">
+			<Text>Militær – flåde</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_RELIGIOUS">
+			<Text>Religiøse</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_SPY">
+			<Text>Spioner</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_SUPPORT">
+			<Text>Støtte</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_TRADER">
+			<Text>Handelsmænd</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_ALL_NAVAL_UNITS_MOVEMENT">
+			<Text>+{1_Num} [ICON_Movement] bevægelse for alle flådeenheder.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_DIPLO_VISIBILITY">
+			<Text>+1 niveau diplomatisk synlighed</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_EMBARKED_MOVEMENT">
+			<Text>+{1_Num} [ICON_Movement] bevægelse for enheder om bord.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_TOGGLE_MARK">
+			<Text>Klik for at sætte eller fjerne [ICON_New]-mærket.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_URBAN_DEFENSES">
+			<Text>Låser op for byforsvar, som automatisk giver alle dine byer {1_Num} i befæstningsstyrke og mulighed for at udføre afstandsangreb. Alle tidligere mure bliver forældede, og belejringsstøtteenheder har ikke længere nogen virkning.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_VALID_OCEAN">
+			<Text>Alle flådeenheder og enheder om bord kan sejle på oceanfelter.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_AUTO_DELETE_MAP_TACK_HINT">
+			<Text>Vil du slette kortnåle automatisk?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_CANNOT_PLACE_ON_REASON">
+			<Text>Kan ikke placeres på {1_Name}.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_GOLDEN_GATE_BRIDGE_REASON">
+			<Text>Broen skal gå lige over feltet mellem to landfelter, der ligger direkte over for hinanden. Der skal være mindst ét vandfelt på både venstre og højre side af broen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_INVALID_DAM_PLACEMENT_REASON">
+			<Text>Der kan kun bygges én dæmning langs hver flods flodslette (den spiller, der først fuldfører en, får den), og floden skal løbe langs mindst to af dæmningsfeltets sider.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_MUST_PLACE_ADJACENT_TO_CAPITAL_REASON">
+			<Text>Skal bygges ved siden af din [ICON_CAPITAL] hovedstad.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_MUST_PLACE_ON_CORRECT_FEATURES_REASON">
+			<Text>Skal placeres på de rigtige terrænelementer.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_OPTIONS_HOTKEY_ADD_MAP_TACK">
+			<Text>Tilføj kortnål</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_OPTIONS_HOTKEY_CATEGORY">
+			<Text>Detaljerede kortnåle</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_OPTIONS_HOTKEY_DELETE_MAP_TACK">
+			<Text>Slet kortnål</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_OPTIONS_HOTKEY_TOGGLE_MAP_TACK_VISIBILITY">
+			<Text>Vis/skjul kortnåle</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_YIELD_FROM_MODIFIER_DEFAULT">
+			<Text>{1_Value : number +#.#;-#.#} {2_YieldType} fra modifikatorer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_YIELD_FROM_MODIFIER_NAME">
+			<Text>{1_Value : number +#.#;-#.#} {2_YieldType} fra {3_Name}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ADJYIELD_LENS">
+			<Text>Nabobonus</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ADJYIELD_LENS_TOOLTIP">
+			<Text>Viser nabobonus for distrikter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ARCHAEOLOGIST_LENS">
+			<Text>Arkæolog</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ARCHAEOLOGIST_LENS_TOOLTIP">
+			<Text>Fremhæver steder, hvor arkæologer kan grave.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BARBARIAN_LENS">
+			<Text>Barbarer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BARBARIAN_LENS_TOOLTIP">
+			<Text>Fremhæver barbarlejre på kortet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS">
+			<Text>Bygmester</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P1">
+			<Text>Ressourcer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P1N">
+			<Text>Ressourcer uden for rækkevidde</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P2">
+			<Text>Anbefalet/plyndret/unik evne</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P3">
+			<Text>Bearbejdes nu / styrket af vidunder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P4">
+			<Text>Bakker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P5">
+			<Text>Fjern terrænelement</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P7">
+			<Text>Generelt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_PD">
+			<Text>Farligt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_PN">
+			<Text>Intet at gøre</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_TOOLTIP">
+			<Text>Fremhæver de felter, bygmesteren kan arbejde på</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_CITYOVERLAP_LENS">
+			<Text>Byoverlap</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_CITYOVERLAP_LENS_TOOLTIP">
+			<Text>Viser, hvor mange byer (inden for 6 felter) et felt overlapper med</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_BUILDER">
+			<Text>Vis bygmesterkortlaget automatisk</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_SCOUT">
+			<Text>Vis spejderkortlaget automatisk</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_SCOUT_EXTRA">
+			<Text>Vis spejderkortlaget automatisk – udvidet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_BUILDER_DISABLE_DANGEROUS">
+			<Text>Bygmesterkortlag: Fremhæv ikke farlige felter.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_BUILDER_DISABLE_NOTHING">
+			<Text>Bygmesterkortlag: Fremhæv ikke felter uden noget at gøre</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_PANEL_TITLE">
+			<Text>Flere kortlag – indstillinger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_NATURALIST_LENS">
+			<Text>Naturforsker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_NATURALIST_LENS_TOOLTIP">
+			<Text>Fremhæver steder, hvor der kan anlægges nationalparker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_CITIES">
+			<Text>Byer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_CITIES2">
+			<Text>[ICON_Power]Byer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_DEALS">
+			<Text>Aftaler</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_MINORS">
+			<Text>Bystater</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_POLICIES">
+			<Text>Politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_UNITS">
+			<Text>Enheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_RESOURCE_LENS">
+			<Text>Ressourcer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_RESOURCE_LENS_COUNT_TOOLTIP">
+			<Text>Du ejer {1_Count} ({2_Count} forbedret) af i alt {3_Count} opdagede felter med {4_Resource}.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_RESOURCE_LENS_TOOLTIP">
+			<Text>Fremhæver ressourcer på kortet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_SCOUT_LENS">
+			<Text>Spejder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_SCOUT_LENS_TOOLTIP">
+			<Text>Fremhæver stammelandsbyer på kortet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_WONDER_LENS">
+			<Text>Vidundere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_WONDER_LENS_TOOLTIP">
+			<Text>Fremhæver naturvidundere og vidundere bygget af spillere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_UI_REPORTS">
+			<Text>Vis/skjul rapporter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_UI_REPORTS_HELP">
+			<Text>Viser eller skjuler rapportskærmen</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_PANEL_CITYOVERLAP_NMOUSE">
+			<Text>Uden mus</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_PANEL_CITYOVERLAP_OPTION1">
+			<Text>Fremhæv uden for grænsen</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_PANEL_CITYOVERLAP_RADIUS">
+			<Text>Radius om musen</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_PANEL_CITYOVERLAP_RANGE">
+			<Text>Rækkevidde</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_BUTTON_LABEL">
+			<Text>Æra-oversigt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_CHECKBOX_HIDE_NOT_ACTIVE">
+			<Text>Skjul inaktive</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_CHECKBOX_HIDE_NOT_AVAILABLE">
+			<Text>Skjul dem fra andre æraer og dem, der ikke er tilgængelige nu</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_CHECKBOX_SHOW_ONLY_EARNED">
+			<Text>Vis kun opnåede</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_COUNT">
+			<Text>Antal</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_FAVORED">
+			<Text>Foretrukket</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_REPEATABLE">
+			<Text>Kan gentages</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_WINDOW_TITLE">
+			<Text>Æra-oversigt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_WORLD">
+			<Text>Verden</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_ARCHAEOLOGIST_LENS_ARTIFACT">
+			<Text>Artefakt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_ARCHAEOLOGIST_LENS_SHIPWRECK">
+			<Text>Skibsvrag</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_BARBARIAN_LENS_ENCAPMENT">
+			<Text>Barbarlejr</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_CITYOVERLAP_RANGE">
+			<Text>Viser felter og fremhæver byer inden for rækkevidden (indstilles nedenfor) fra feltet under musen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_NATURALIST_LENS_FIXABLE">
+			<Text>Skal gøres klar, før det kan bruges til en park</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_NATURALIST_LENS_NPARK">
+			<Text>Området er klar til en nationalpark</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_NATURALIST_LENS_OK">
+			<Text>Feltet kan bruges, hvis et andet felt bliver gjort klar</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_BONUS">
+			<Text>Bonusressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_LUXURY">
+			<Text>Luksusressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_NBONUS">
+			<Text>Ikke-forbundet bonusressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_NLUXURY">
+			<Text>Ikke-forbundet luksusressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_NSTRATEGIC">
+			<Text>Ikke-forbundet strategisk ressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_PWONDER">
+			<Text>Bygget vidunder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_STRATEGIC">
+			<Text>Strategisk ressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_SCOUT_LENS_GHUT">
+			<Text>Stammelandsby</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_WONDER_LENS_NWONDER">
+			<Text>Naturvidunder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_BUILDER">
+			<Text>Slå til for at vise bygmesterkortlaget automatisk, når du vælger en bygmester.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_SCOUT">
+			<Text>Slå til for at vise spejderkortlaget automatisk, når du vælger en opklaringsenhed.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_SCOUT_EXTRA">
+			<Text>Slå til for at vise spejderkortlaget automatisk, når du vælger en hvilken som helst militærenhed.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_BUILDER_DISABLE_DANGEROUS">
+			<Text>Slår fremhævning af felter ved siden af en fjende fra. Slå til, hvis kortlaget er længe om at blive vist.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_BUILDER_DISABLE_NOTHING">
+			<Text>Slår fremhævning af felter, hvor der ikke er noget at gøre, fra. Slå til, hvis kortlaget er længe om at blive vist.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
