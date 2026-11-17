@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for the Civilization VI mod Policy Change Reminder -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_TITLE">
+			<Text>Du har nye politikkort</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_DESC">
+			<Text>Du har lige låst op for nye politikkort.[NEWLINE]Det er gratis at skifte politikker og styreform i denne tur.[NEWLINE][NEWLINE]Vil du fortsætte uden at skifte?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_CHANGE">
+			<Text>Skift politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_CONTINUE">
+			<Text>Næste tur</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

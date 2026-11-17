@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for the Civilization VI mod Better Tech Tree -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_BTT_ALL_NAVAL_UNITS_MOVEMENT">
+			<Text>+{1_Num} [ICON_Movement] bevægelse for alle flådeenheder.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_DIPLO_VISIBILITY">
+			<Text>+1 niveau diplomatisk synlighed</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_EMBARKED_MOVEMENT">
+			<Text>+{1_Num} [ICON_Movement] bevægelse for enheder om bord.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_TOGGLE_MARK">
+			<Text>Klik for at sætte eller fjerne [ICON_New]-mærket.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_URBAN_DEFENSES">
+			<Text>Låser op for byforsvar, som automatisk giver alle dine byer {1_Num} i befæstningsstyrke og mulighed for at udføre afstandsangreb. Alle tidligere mure bliver forældede, og belejringsstøtteenheder har ikke længere nogen virkning.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BTT_VALID_OCEAN">
+			<Text>Alle flådeenheder og enheder om bord kan sejle på oceanfelter.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

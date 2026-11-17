@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for the Civilization VI mod More Lenses -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_HUD_ADJYIELD_LENS">
+			<Text>Nabobonus</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ADJYIELD_LENS_TOOLTIP">
+			<Text>Viser nabobonus for distrikter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ARCHAEOLOGIST_LENS">
+			<Text>Arkæolog</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ARCHAEOLOGIST_LENS_TOOLTIP">
+			<Text>Fremhæver steder, hvor arkæologer kan grave.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BARBARIAN_LENS">
+			<Text>Barbarer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BARBARIAN_LENS_TOOLTIP">
+			<Text>Fremhæver barbarlejre på kortet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS">
+			<Text>Bygmester</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P1">
+			<Text>Ressourcer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P1N">
+			<Text>Ressourcer uden for rækkevidde</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P2">
+			<Text>Anbefalet/plyndret/unik evne</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P3">
+			<Text>Bearbejdes nu / styrket af vidunder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P4">
+			<Text>Bakker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P5">
+			<Text>Fjern terrænelement</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_P7">
+			<Text>Generelt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_PD">
+			<Text>Farligt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_PN">
+			<Text>Intet at gøre</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_BUILDER_LENS_TOOLTIP">
+			<Text>Fremhæver de felter, bygmesteren kan arbejde på</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_CITYOVERLAP_LENS">
+			<Text>Byoverlap</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_CITYOVERLAP_LENS_TOOLTIP">
+			<Text>Viser, hvor mange byer (inden for 6 felter) et felt overlapper med</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_BUILDER">
+			<Text>Vis bygmesterkortlaget automatisk</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_SCOUT">
+			<Text>Vis spejderkortlaget automatisk</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_SCOUT_EXTRA">
+			<Text>Vis spejderkortlaget automatisk – udvidet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_BUILDER_DISABLE_DANGEROUS">
+			<Text>Bygmesterkortlag: Fremhæv ikke farlige felter.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_BUILDER_DISABLE_NOTHING">
+			<Text>Bygmesterkortlag: Fremhæv ikke felter uden noget at gøre</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_ML_SETTINGS_PANEL_TITLE">
+			<Text>Flere kortlag – indstillinger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_NATURALIST_LENS">
+			<Text>Naturforsker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_NATURALIST_LENS_TOOLTIP">
+			<Text>Fremhæver steder, hvor der kan anlægges nationalparker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_RESOURCE_LENS">
+			<Text>Ressourcer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_RESOURCE_LENS_COUNT_TOOLTIP">
+			<Text>Du ejer {1_Count} ({2_Count} forbedret) af i alt {3_Count} opdagede felter med {4_Resource}.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_RESOURCE_LENS_TOOLTIP">
+			<Text>Fremhæver ressourcer på kortet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_SCOUT_LENS">
+			<Text>Spejder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_SCOUT_LENS_TOOLTIP">
+			<Text>Fremhæver stammelandsbyer på kortet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_WONDER_LENS">
+			<Text>Vidundere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_WONDER_LENS_TOOLTIP">
+			<Text>Fremhæver naturvidundere og vidundere bygget af spillere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_PANEL_CITYOVERLAP_NMOUSE">
+			<Text>Uden mus</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_PANEL_CITYOVERLAP_OPTION1">
+			<Text>Fremhæv uden for grænsen</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_PANEL_CITYOVERLAP_RADIUS">
+			<Text>Radius om musen</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_PANEL_CITYOVERLAP_RANGE">
+			<Text>Rækkevidde</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_ARCHAEOLOGIST_LENS_ARTIFACT">
+			<Text>Artefakt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_ARCHAEOLOGIST_LENS_SHIPWRECK">
+			<Text>Skibsvrag</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_BARBARIAN_LENS_ENCAPMENT">
+			<Text>Barbarlejr</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_CITYOVERLAP_RANGE">
+			<Text>Viser felter og fremhæver byer inden for rækkevidden (indstilles nedenfor) fra feltet under musen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_NATURALIST_LENS_FIXABLE">
+			<Text>Skal gøres klar, før det kan bruges til en park</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_NATURALIST_LENS_NPARK">
+			<Text>Området er klar til en nationalpark</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_NATURALIST_LENS_OK">
+			<Text>Feltet kan bruges, hvis et andet felt bliver gjort klar</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_BONUS">
+			<Text>Bonusressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_LUXURY">
+			<Text>Luksusressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_NBONUS">
+			<Text>Ikke-forbundet bonusressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_NLUXURY">
+			<Text>Ikke-forbundet luksusressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_NSTRATEGIC">
+			<Text>Ikke-forbundet strategisk ressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_PWONDER">
+			<Text>Bygget vidunder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_RESOURCE_LENS_STRATEGIC">
+			<Text>Strategisk ressource</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_SCOUT_LENS_GHUT">
+			<Text>Stammelandsby</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTIP_WONDER_LENS_NWONDER">
+			<Text>Naturvidunder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_BUILDER">
+			<Text>Slå til for at vise bygmesterkortlaget automatisk, når du vælger en bygmester.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_SCOUT">
+			<Text>Slå til for at vise spejderkortlaget automatisk, når du vælger en opklaringsenhed.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_SCOUT_EXTRA">
+			<Text>Slå til for at vise spejderkortlaget automatisk, når du vælger en hvilken som helst militærenhed.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_BUILDER_DISABLE_DANGEROUS">
+			<Text>Slår fremhævning af felter ved siden af en fjende fra. Slå til, hvis kortlaget er længe om at blive vist.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_TOOLTOP_ML_SETTINGS_BUILDER_DISABLE_NOTHING">
+			<Text>Slår fremhævning af felter, hvor der ikke er noget at gøre, fra. Slå til, hvis kortlaget er længe om at blive vist.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

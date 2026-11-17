@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_PLAYER_TT">
+			<Text>{1_PlayerName} afgav {2_Votes} {2_Votes : plural 1?stemme; other?stemmer;} for denne konkurrence.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_TT">
+			<Text>Der blev afgivet {1_Votes} {1_Votes : plural 1?stemme; other?stemmer;} for denne konkurrence.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_OUTCOME">
+			<Text>Valgte udfald: {1_ChoiceLabel}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_TARGET">
+			<Text>Valgte mål:</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SELECT_AN_OUTCOME">
+			<Text>Vælg et udfald for denne resolution:</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SELECT_TARGET">
+			<Text>Vælg et mål</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_CONFIRM">
+			<Text>Er du sikker på, at du vil indsende disse forslag?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_END">
+			<Text>VERDENSKONGRESSEN: EKSTRAORDINÆR SAMLING SLUT!</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_INSTRUCTIONS">
+			<Text>Brug [ICON_FAVOR] diplomatisk gunst til at stemme om disse drøftelser.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_TITLE">
+			<Text>VERDENSKONGRESSEN: EKSTRAORDINÆR SAMLING</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SUBMIT">
+			<Text>Indsend</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SUBMITTING">
+			<Text>Indsender</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SUBMIT_PROPOSALS_CONFIRM">
+			<Text>Er du sikker på, at du vil indsende disse forslag?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_SUBTRACT_DIPLOVICTORY_DESC">
+			<Text>Den valgte spiller mister 2 diplomatiske sejrspoint.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TARGET_PROPOSAL_TT">
+			<Text>Er målet for denne konkurrence</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TARGET_RESOLUTION_TT">
+			<Text>Er målet for denne resolution</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TITLE">
+			<Text>VERDENSKONGRESSEN: SAMLING I GANG</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TOP_PANEL_FAVOR_TOOLTIP">
+			<Text>Dette er diplomatisk gunst, en valuta, du kan købe stemmer for.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_CATEGORY_COST">
+			<Text>Alle drøftelser i denne kategori koster {1_Num} [ICON_FAVOR] diplomatisk gunst.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_NO_REFUND">
+			<Text>Du bruger [ICON_FAVOR] {1_Num} diplomatisk gunst på at foreslå disse drøftelser.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_WITH_REFUND">
+			<Text>Du bruger [ICON_FAVOR] {1_Num} diplomatisk gunst på disse drøftelser. Hvis Verdenskongressen ikke er enig i dine stemmer, får du noget af din gunst tilbage.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_GAME_PAUSED">
+			<Text>Du kan ikke fortsætte, mens spillet er sat på pause.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_INSUFFICIENT_FAVOR_COST">
+			<Text>Ikke nok [ICON_FAVOR] diplomatisk gunst. Du skal have mindst [ICON_FAVOR] {1_Num} diplomatisk gunst.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_LEADER_FAVOR">
+			<Text>Denne leder har [ICON_FAVOR] {1_Num} diplomatisk gunst.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_MAX_ONE_PROPOSAL">
+			<Text>Du kan kun foreslå én resolution pr. spiller.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_NEW_PROPOSAL">
+			<Text>Denne drøftelse blev vedtaget på Verdenskongressens seneste samling.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_NEW_RESOLUTION">
+			<Text>Denne resolution blev vedtaget på Verdenskongressens seneste samling.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_NO_VOTING_DOWN">
+			<Text>Stem på det mål, du ønsker, at resolutionen skal ramme, og på hvilken effekt der skal gennemføres. Din første stemme er gratis.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR">
+			<Text>Du har [ICON_FAVOR] {1_Num} diplomatisk gunst.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR_TO_SPEND">
+			<Text>Så meget [ICON_FAVOR] diplomatisk gunst har du tilbage at bruge.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST">
+			<Text>Stem imod denne drøftelse. Selv hvis den vedtages, deltager du ikke i den efterfølgende pointkonkurrence. Din første stemme er gratis.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST_TARGET">
+			<Text>Stem imod denne drøftelse. Hvis den vedtages, bliver du målet for denne nødsituation. Din første stemme er gratis.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_FOR">
+			<Text>Stem for denne drøftelse. Hvis den vedtages, deltager du i den efterfølgende pointkonkurrence. Din første stemme er gratis.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_COST">
+			<Text>Denne drøftelse koster {1_Num} [ICON_FAVOR] diplomatisk gunst.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_REFUND">
+			<Text>Fjern denne drøftelse, og få {1_Num} [ICON_FAVOR] diplomatisk gunst tilbage.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_RESOLUTIONS_FAVOR_COST_WITH_REFUND">
+			<Text>Du bruger [ICON_FAVOR] {1_Num} diplomatisk gunst på resolutioner. Hvis Verdenskongressen ikke er enig i dine valg, får du noget af din gunst tilbage.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_SELECT_ALL">
+			<Text>Du skal stemme om alle indsendte forslag.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_SELECT_ONE">
+			<Text>Du skal indsende mindst ét forslag.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_SUBMITTING">
+			<Text>Din afstemning bliver indsendt ...</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_TIE_EXPLANATION">
+			<Text>Ved stemmelighed vinder det mål, som civilisationerne brugte den største procentdel af deres [ICON_Favor] diplomatiske gunst på at stemme for.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_VOTE_COST">
+			<Text>{1_Icon} {2_Votes} {2_Votes : plural 1?stemme; other?stemmer;} koster {3_Cost} [ICON_FAVOR] diplomatisk gunst.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN">
+			<Text>Fjern én stemme, og få {1_Num} [ICON_FAVOR] diplomatisk gunst tilbage.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN_SUMMARY">
+			<Text>Du er ved at afgive {1_Votes} {1_Votes : plural 1?stemme; other?stemmer;} imod denne drøftelse.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP">
+			<Text>Tilføj en stemme for {1_Num} [ICON_FAVOR] diplomatisk gunst.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP_SUMMARY">
+			<Text>Du er ved at afgive {1_Votes} {1_Votes : plural 1?stemme; other?stemmer;} for denne drøftelse.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_TURNS_LEFT_TT">
+			<Text>Denne effekt fra Verdenskongressen udløber om [ICON_TURN] {1_Turns} {1_Turns : plural 1?tur; other?ture;}.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_UNIT_ACCESS_BAN_FAITH">
+			<Text>Køb af enheder for [ICON_Faith] tro er blevet forbudt ved et mandat fra Verdenskongressen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_UNIT_ACCESS_BAN_GOLD">
+			<Text>Køb af enheder for [ICON_Gold] guld er blevet forbudt ved et mandat fra Verdenskongressen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_UNIT_ACCESS_BAN_PRODUCTION">
+			<Text>Produktion af enheder er blevet forbudt ved et mandat fra Verdenskongressen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_VOTE_NORMAL_SESSION_DESCRIPTION">
+			<Text>Du må beslutte, hvordan du bedst udnytter de muligheder, Verdenskongressen giver dig. Brug din opsparede [ICON_FAVOR] diplomatiske gunst til at stemme om de forslag, der er vigtige for dig og dit folk.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_VOTE_SPECIAL_SESSION_DESCRIPTION">
+			<Text>Nylige begivenheder kræver Verdenskongressens opmærksomhed. Brug din opsparede [ICON_FAVOR] diplomatiske gunst til at stemme om de drøftelser, der er vigtige for dig og dit folk.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_WORLDS_FAIR_SUMMARY">
+			<Text>"Hvilken nation har de bedste kreative sjæle og opfindere? Lad os se, hvem der har de skarpeste hjerner."</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CONGRESS_WORLD_GAMES_SUMMARY">
+			<Text>"Atletik behøver ikke bevises på slagmarken. Lad os vise, hvem der er stærkest, gennem sport."</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CULTURE_DECREASE_FLOATER">
+			<Text>[COLOR_FLOAT_CULTURE]{1_Num} [ICON_Culture][ENDCOLOR] [COLOR_RED]TABT[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_CULTURE_INCREASE_FLOATER">
+			<Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_DISTRICT_DEFENSE_DAMAGE_DECREASE_FLOATER">
+			<Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR] forsvar</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_DISTRICT_DEFENSE_DAMAGE_INCREASE_FLOATER">
+			<Text>[COLOR_RED]{1_Num}[ENDCOLOR] forsvar</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_DISTRICT_GARRISON_DAMAGE_DECREASE_FLOATER">
+			<Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR] helbred</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_DISTRICT_GARRISON_DAMAGE_INCREASE_FLOATER">
+			<Text>[COLOR_RED]{1_Num}[ENDCOLOR] helbred</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_FAITH_DECREASE_FLOATER">
+			<Text>{1_Num} [ICON_Faith] [COLOR_RED]TABT[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_FAITH_INCREASE_FLOATER">
+			<Text>+{1_Num} [ICON_Faith]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_FOOD_DECREASE_FLOATER">
+			<Text>[COLOR_FLOAT_FOOD]{1_Num} [ICON_Food][ENDCOLOR] [COLOR_RED]TABT[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_FOOD_INCREASE_FLOATER">
+			<Text>[COLOR_FLOAT_FOOD]+{1_Num} [ICON_Food][ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_GOLD_DECREASE_FLOATER">
+			<Text>[COLOR_FLOAT_GOLD]{1_Num} [ICON_Gold][ENDCOLOR] [COLOR_RED]TABT[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_GOLD_INCREASE_FLOATER">
+			<Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_POINTS_FLOATER">
+			<Text>[COLOR_GREEN]+{1_Num} point[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_PRODUCTION_DECREASE_FLOATER">
+			<Text>[COLOR_FLOAT_PRODUCTION]{1_Num}[ICON_Production][ENDCOLOR] [COLOR_RED]TABT[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_PRODUCTION_INCREASE_FLOATER">
+			<Text>[COLOR_FLOAT_PRODUCTION]+{1_Num} [ICON_Production][ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_10_PLACE">
+			<Text>tiende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_11_PLACE">
+			<Text>ellevte</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_12_PLACE">
+			<Text>tolvte</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_13_PLACE">
+			<Text>trettende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_14_PLACE">
+			<Text>fjortende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_15_PLACE">
+			<Text>femtende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_16_PLACE">
+			<Text>sekstende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_17_PLACE">
+			<Text>syttende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_18_PLACE">
+			<Text>attende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_19_PLACE">
+			<Text>nittende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_1_PLACE">
+			<Text>første</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_20_PLACE">
+			<Text>tyvende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_2_PLACE">
+			<Text>anden</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_3_PLACE">
+			<Text>tredje</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_4_PLACE">
+			<Text>fjerde</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_5_PLACE">
+			<Text>femte</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_6_PLACE">
+			<Text>sjette</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_7_PLACE">
+			<Text>syvende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_8_PLACE">
+			<Text>ottende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_9_PLACE">
+			<Text>niende</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_BLACKDEATH_SCENARIO_RULES">
+			<Text>I dette scenarie skal du føre din middelaldercivilisation gennem den berygtede Sorte Død og holde dens kulturelle og videnskabelige stræben i live, mens befolkningen lider under død og fortvivlelse. For at vinde skal du låse enten den sidste teknologi (Opfindelse) eller den sidste samfundsudvikling (Middelklassen) op og så kimen til den kommende oplysningstid.[NEWLINE][NEWLINE]PESTEN[NEWLINE][NEWLINE]I løbet af 85 ture fejer Den Sorte Død hen over kontinentet i bølger. Den opstår i havnebyer i alle nationer og breder sig derfra ud over landet. Den kan sprede sig til alle landfelter undtagen bjerge og breder sig lettere til byer, veje, kystfelter med havnedistrikter og landbrugsforbedringer. Når pesten når et felt, bliver feltet [COLOR:Red]pestramt[ENDCOLOR] i et antal ture. Derefter kommer feltet sig, men så længe det er pestramt, gælder følgende:[NEWLINE][NEWLINE][COLOR:Red][ICON_BULLET]Pestramte felter kan ikke bearbejdes af borgere, kan ikke forbedres eller repareres og kan ikke bruges til at anlægge distrikter eller tilføje bygninger, hvis der allerede er et distrikt[NEWLINE][NEWLINE][ICON_BULLET]Hvis feltet er en bymidte, er der stor risiko for, at én befolkning dør for hver tur, pesten varer. Risikoen kan mindskes ved at opføre bestemte bygninger eller bruge bestemte politikker[NEWLINE][NEWLINE][ICON_BULLET]Enheder, der slutter deres tur på et pestramt felt, tager 20 i skade[ENDCOLOR][NEWLINE][NEWLINE]For at bekæmpe Den Sorte Død skal du sørge for, at dine byer kan blive ved med at arbejde gennem ulykken. Byg vigtige distrikter, mens dine borgere stadig kan. Hold dine reserver af [ICON_Gold] guld og [ICON_Faith] tro høje, så du kan købe bygninger og enheder, når dine byer er lammede. Etabler tidligt centre for videnskab og kultur, og beskyt dem så godt du kan. Når pestlæger bliver tilgængelige, så brug dem til at beskytte dine mest sårbare områder eller styrke loyaliteten i byer, der vakler.[NEWLINE][NEWLINE]Sværhedsgraden påvirker [ICON_GOLD] guld og [ICON_FAITH] tro.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CIVILIZATION_LABEL">
+			<Text>Civilisation</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURAL_VICTORY_TURNS">
+			<Text>Sejr: [ICON_Turn] {1_Turns}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURAL_VICTORY_TURNS_TT">
+			<Text>Denne spiller opnår kultursejr om {1_Turns : plural 1?{1_Turns} tur; other?{1_Turns} ture;}.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_DETAILS_DOMESTIC_TOURISTS">
+			<Text>Dine [COLOR:ResCultureLabelCS]INDENLANDSKE TURISTER[ENDCOLOR] er de turister fra din civilisation, der i øjeblikket holder ferie inden for dine grænser og er glade for det.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_DETAILS_VISITING_TOURISTS">
+			<Text>Dine [COLOR:ResCultureLabelCS]BESØGENDE TURISTER[ENDCOLOR] er det antal borgere, du har tiltrukket fra andre civilisationers puljer af [COLOR:ResCultureLabelCS]INDENLANDSKE TURISTER[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_DOMESTIC_TOURISTS">
+			<Text>Indenlandske turister</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_DOMESTIC_TOURISTS_TOOLTIP">
+			<Text>Denne kolonne viser, hvor mange af civilisationens turister der stadig holder ferie inden for deres egne grænser.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_HOW_TO_ATTRACT_TOURISTS">
+			<Text>Sådan tiltrækker du turister til din civilisation.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_HOW_TO_TOURISM">
+			<Text>Sådan tiltrækker du turister til din civilisation.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_HOW_TO_VICTORY">
+			<Text>Hvad er en kultursejr?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_OUR_VISITORS_FROM">
+			<Text>Vores besøgende fra</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_OUR_VISITORS_FROM_TOOLTIP">
+			<Text>Denne kolonne viser, hvor mange turister fra denne civilisation der i øjeblikket besøger os.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TAB">
+			<Text>Kultur</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURISM_DETAILS">
+			<Text>Din evne til at tiltrække [COLOR:ResCultureLabelCS]BESØGENDE TURISTER[ENDCOLOR] til din civilisation afhænger af forskellen mellem din egen produktion af [ICON_Culture] kultur og produktionen hos den civilisation, hvis [COLOR:ResCultureLabelCS]INDENLANDSKE TURISTER[ENDCOLOR] du forsøger at tiltrække.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_ALLIANCES">
+			<Text>{1_Tooltip}[NEWLINE]Samlet [ICON_Tourism] turisme øget med +{2_Percent} fra alliancer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_GOVERNMENT">
+			<Text>{1_Tooltip}[NEWLINE]Samlet [ICON_Tourism] turisme reduceret med {2_Percent} % pga. forskellige styreformer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_HEADER">
+			<Text>[ICON_Tourism] Turisme: {1_Current} (nu)[NEWLINE][ICON_Tourism] Turisme: {2_LifetimeTourism} (i alt)[NEWLINE]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_OPEN_BORDERS">
+			<Text>{1_Tooltip}[NEWLINE]Samlet [ICON_Tourism] turisme øget med +{2_Percent} % fra åbne grænser</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_REDUCED_RELIGION1">
+			<Text>{1_Tooltip}[NEWLINE]Religiøs [ICON_Tourism] turisme reduceret med {2_Percent} % pga. oplysningstiden</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_REDUCED_RELIGION2">
+			<Text>{1_Tooltip}[NEWLINE]Religiøs [ICON_Tourism] turisme reduceret med {2_Percent} % pga. forskellige religioner</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_REDUCTION_MODIFIER">
+			<Text>{1_Tooltip}[NEWLINE]Samlet [ICON_Tourism] turisme reduceret med {2_Percent} % pga. deres øvrige effekter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_TRADE_ROUTE">
+			<Text>{1_Tooltip}[NEWLINE]Samlet [ICON_Tourism] turisme øget med +{2_Percent} % fra handelsrute</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY">
+			<Text>KULTURSEJR</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS">
+			<Text>For at opnå en [COLOR:ResCultureLabelCS]KULTURSEJR[ENDCOLOR] skal du blive [COLOR:ResCultureLabelCS]KULTURELT DOMINERENDE[ENDCOLOR] over alle andre civilisationer. Du opnår kulturel dominans, når du tiltrækker flere [COLOR:ResCultureLabelCS]BESØGENDE TURISTER[ENDCOLOR] til din civilisation, end den anden civilisation har [COLOR:ResCultureLabelCS]INDENLANDSKE TURISTER[ENDCOLOR] derhjemme.[NEWLINE][NEWLINE]Høj produktion af [ICON_Culture] kultur og [ICON_Tourism] turisme øger både dine indenlandske turister og antallet af besøgende turister fra andre civilisationer.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_VISITING_TOURISTS">
+			<Text>Besøgende turister</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_VISITING_TOURISTS_TOOLTIP">
+			<Text>Denne kolonne viser det samlede antal besøgende turister, som vores civilisation har tiltrukket, ud af det antal, vi i alt skal bruge for at opnå en kultursejr.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_CULTURE_WHAT_IS_VICTORY">
+			<Text>Hvad er en kultursejr?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_DIPLOMATIC_POINTS_TT">
+			<Text>Diplomatiske point: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_DOMINATION_DETAILS">
+			<Text>For at opnå en [COLOR:ResMilitaryLabelCS]EROBRINGSSEJR[ENDCOLOR] skal du erobre den oprindelige [ICON_Capital] hovedstad hos alle andre civilisationer.[NEWLINE][NEWLINE]En stærk hær anbefales varmt.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_DOMINATION_HAS_ORIGINAL_CAPITAL">
+			<Text>Har sin oprindelige [ICON_Capital] hovedstad.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_DOMINATION_PROGRESS">
+			<Text>Fremskridt mod erobringssejr</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_DOMINATION_SUMMARY">
+			<Text>{1_NumCaptured : plural 1?{1_NumCaptured} hovedstad; other?{1_NumCaptured} hovedstæder;} erobret</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_DOMINATION_TAB">
+			<Text>Erobring</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_DOMINATION_VICTORY">
+			<Text>EROBRINGSSEJR</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_FIRST_PLACE_OTHER_DETAILS">
+			<Text>{1_CivName} fører med {2_Details}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_FIRST_PLACE_OTHER_SIMPLE">
+			<Text>{1_CivName} fører</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_FIRST_PLACE_TEAM_SIMPLE">
+			<Text>Dit hold fører</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_FIRST_PLACE_YOU_DETAILS">
+			<Text>Du fører med {1_Details}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_FIRST_PLACE_YOU_SIMPLE">
+			<Text>Du fører</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OTHER_PLACE_DETAILS">
+			<Text>Du ligger på {1_Place} plads med {2_Details}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OTHER_PLACE_SIMPLE">
+			<Text>Du ligger på {1_Place} plads</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OTHER_PLACE_TEAM_SIMPLE">
+			<Text>Dit hold ligger på {1_Place} plads</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OTHER_POSITION_DETAILS">
+			<Text>Du ligger på position {1_Place} med {2_Details}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OTHER_POSITION_SIMPLE">
+			<Text>Du ligger på position {1_Place}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERALL_TAB">
+			<Text>Samlet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_CULTURE_CULTURE_RATE">
+			<Text>[ICON_Culture] Kultur pr. tur: {1_Num}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_CULTURE_NUM_DOMINATE_US">
+			<Text>{1_Num} {1_Num : plural 1?civilisation er; other?civilisationer er;} kulturelt dominerende over os.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_CULTURE_NUM_WE_DOMINATE">
+			<Text>Vi er kulturelt dominerende over {1_Num} {1_Num : plural 1?civilisation; other?civilisationer;}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_CULTURE_THEY_ARE_DOMINANT">
+			<Text>Denne civilisation er kulturelt dominerende over os</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_CULTURE_TOURISM_RATE">
+			<Text>[ICON_Tourism] Turisme pr. tur: {1_Num}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_CULTURE_WE_ARE_DOMINANT">
+			<Text>Vi er kulturelt dominerende over denne civilisation</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_DOMINATION_MILITARY_STRENGTH">
+			<Text>Militær styrke: {1_Num}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_DOMINATION_SCORE">
+			<Text>Spillerpoint: {1_Num}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_RELIGION_CITIES_FOLLOWING_RELIGION">
+			<Text>Omvendte byer: {1_Num}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_RELIGION_FAITH_RATE">
+			<Text>[ICON_Faith] Tro pr. tur: {1_Num}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_SCIENCE_NUM_TECHS">
+			<Text>Udforskede teknologier: {1_Num}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_OVERVIEW_SCIENCE_SCIENCE_RATE">
+			<Text>[ICON_Science] Videnskab pr. tur: {1_Num}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_RELIGION_CIVS_CONVERTED">
+			<Text>Omvendte civilisationer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_RELIGION_CONVERT_SUMMARY">
+			<Text>{1_NumConverts} civilisationer omvendt til {2_ReligionName}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_RELIGION_DETAILS">
+			<Text>For at opnå en [COLOR:ResFaithLabelCS]RELIGIØS[ENDCOLOR] sejr skal din religion blive den [COLOR:ResFaithLabelCS]FREMHERSKENDE[ENDCOLOR] religion hos alle civilisationer i spillet.[NEWLINE][NEWLINE]En religion er [COLOR:ResFaithLabelCS]FREMHERSKENDE[ENDCOLOR], hvis mere end 50% af en civilisations byer følger den.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_RELIGION_TAB">
+			<Text>Religion</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_RELIGION_TEAMS_RELIGIONS">
+			<Text>holdets religioner</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_RELIGION_VICTORY">
+			<Text>RELIGIØS SEJR</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_REQUIREMENTS_LABEL">
+			<Text>Krav</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_DETAILS">
+			<Text>For at opnå en [COLOR:ResScienceLabelCS]VIDENSKABSSEJR[ENDCOLOR] skal du nå 3 store milepæle:</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_DETAILS_EXP2">
+			<Text>For at opnå en [COLOR:ResScienceLabelCS]VIDENSKABSSEJR[ENDCOLOR] skal du nå 4 store milepæle:</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_HAS_MOVED">
+			<Text>Ekspeditionen til exoplaneten har tilbagelagt {1_LightYearsTraveled} / {2_LightYearsTotalNeeded} {2_LightYearsTotalNeeded : plural 1?lysår; other?lysår;}.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_IS_MOVING">
+			<Text>Ekspeditionen til exoplaneten rejser {1_LightYearsPerTurn} {1_LightYearsPerTurn : plural 1?lysår; other?lysår;} pr. tur.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS">
+			<Text>lysår.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS_PER_TURN">
+			<Text>lysår pr. tur.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_NEXT_STEP">
+			<Text>[COLOR:ResScienceLabelCS]Næste skridt: {1_NextStep}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_NEXT_STEP_BUILD">
+			<Text>Byg {1_NextStep}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_NEXT_STEP_RESEARCH">
+			<Text>Udforsk {1_NextStep}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_NO_LAUNCH">
+			<Text>Ekspeditionen til exoplaneten er ikke sendt af sted.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_1">
+			<Text>Opsend en satellit.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_2">
+			<Text>Land et menneske på Månen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_3">
+			<Text>Grundlæg en koloni på Mars.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_4">
+			<Text>Send en ekspedition af sted til en exoplanet.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_FINAL">
+			<Text>Hjælp ekspeditionen til exoplaneten med at tilbagelægge {1_NumLightYears} lysår.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_TAB">
+			<Text>Videnskab</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCIENCE_VICTORY">
+			<Text>VIDENSKABSSEJR</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCORE_CONDITION">
+			<Text>ved {1_NumTurns} ture</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCORE_DETAILS">
+			<Text>En [COLOR:NeutralCS]POINTSEJR[ENDCOLOR] indtræffer, når ingen civilisation har opnået nogen anden sejr ved spillets afslutning. I så fald vinder civilisationen med flest [COLOR:NeutralCS]POINT[ENDCOLOR] samlet set!</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCORE_TAB">
+			<Text>Point</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SCORE_VICTORY">
+			<Text>POINTSEJR</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_SHOW_DETAILS">
+			<Text>Vis detaljer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_STEPS_COMPLETED">
+			<Text>Fuldførte trin</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_TEAM">
+			<Text>Hold {1_TeamNumber}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_TITLE">
+			<Text>VERDENSRANGLISTE</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_TOURISM_FROM_RESOURCE_MONOPOLIES">
+			<Text>{1_Tooltip}[NEWLINE]Samlet [ICON_Tourism] turisme øget med +{2_Percent}% fra monopoler på luksusressourcer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_VICTORY_BLACKDEATH_SCENARIO">
+			<Text>{1_CompletedCivics}/{2_TotalCivics} samfundsudviklinger, {3_CompletedTechs}/{4_TotalTechs} teknologier</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKINGS_VICTORY_DISABLED">
+			<Text>Sejren kan ikke opnås</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKING_UNMET_PLAYER">
+			<Text>Ukendt spiller</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RANKING_UNMET_PLAYER_COLORED">
+			<Text>[COLOR:131,147,158,255]Ukendt spiller[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_RELIGION_COMBAT_PREVIEW_DESCRIPTION">
+			<Text>+{1_Amount} fra verdensreligion</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_SCIENCE_DECREASE_FLOATER">
+			<Text>[COLOR_FLOAT_SCIENCE]{1_Num} [ICON_Science][ENDCOLOR] [COLOR_RED]TABT[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_SCIENCE_INCREASE_FLOATER">
+			<Text>[COLOR_FLOAT_SCIENCE]+{1_Num} [ICON_Science][ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_TRACKER_CHOOSE_CIVIC">
+			<Text>Vælg samfundsudvikling</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_TRACKER_CHOOSE_RESEARCH">
+			<Text>Vælg forskning</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_TRACKER_EMPTY">
+			<Text>Verdensoversigten viser i øjeblikket ingen paneler. Slå paneler til via menuknappen i overskriften.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_TRACKER_HEADER">
+			<Text>Verdensoversigt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_UNIT_DAMAGE_DECREASE_FLOATER">
+			<Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_UNIT_DAMAGE_INCREASE_FLOATER">
+			<Text>[COLOR_RED]{1_Num}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_FLOATER">
+			<Text>[COLOR_LIGHTBLUE]+{1_Num} XP[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_LEVEL_FLOATER">
+			<Text>[COLOR_LIGHTBLUE]+{1_Num} XP[NEWLINE]*FORFREMMELSE TILGÆNGELIG*[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_WORLD_UNIT_LOW_FUEL_WARNING_FLOATER">
+			<Text>[COLOR_RED]LAV {1_Resource}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP1_INTRO_CONTINUE">
+			<Text>Fortsæt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP1_INTRO_NEXT">
+			<Text>Næste</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP1_INTRO_PREVIOUS">
+			<Text>Forrige</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP2_RAZE_CITY_KEEP_FREE_CITY_EXPLANATION">
+			<Text>Hvis du beholder denne frie by, giver det ingen [ICON_STAT_GRIEVANCE] klager fra andre spillere.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP2_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
+			<Text>Hvis du beholder denne modstanders sidste by, får alle stormagter {1_Grievances} [ICON_STAT_GRIEVANCE] klager mod os (dog færre for andre magter, der er i krig med den udslettede fjende).</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP2_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
+			<Text>Hvis du beholder denne by, får denne modstander {1_Grievances} [ICON_STAT_GRIEVANCE] klager mod os.[NEWLINE][NEWLINE][ICON_STAT_GRIEVANCE] Klagerne bliver enten tilbagebetalt eller fordoblet ved krigens afslutning, afhængigt af om du beholder byen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP2_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
+			<Text>Hvis du befrier denne by, får du {1_Favor} [ICON_Favor] diplomatisk gunst.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP2_RAZE_CITY_RAZE_FREE_CITY_EXPLANATION">
+			<Text>Jævn byen med jorden, så den og alle dens distrikter og bygninger fjernes fra kortet. Dette skal vælges i den tur, byen erobres.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP2_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
+			<Text>Hvis du jævner denne modstanders sidste by med jorden, får alle stormagter {1_Grievances} [ICON_STAT_GRIEVANCE] klager mod os (dog færre for andre magter, der er i krig med den udslettede fjende).</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP2_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
+			<Text>Hvis du jævner denne by med jorden, får denne modstander {1_Grievances} [ICON_STAT_GRIEVANCE] klager mod os!</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_XP_INTRO_HIDETHIS">
+			<Text>Vis ikke dette igen</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YES">
+			<Text>Ja</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YES_BUTTON">
+			<Text>Ja</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YIELD_CULTURE_NAME">
+			<Text>Kultur</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YIELD_FAITH_NAME">
+			<Text>Tro</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YIELD_FOOD_NAME">
+			<Text>Mad</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YIELD_GOLD_NAME">
+			<Text>Guld</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YIELD_PRODUCTION_NAME">
+			<Text>Produktion</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YIELD_SCIENCE_NAME">
+			<Text>Videnskab</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YOUR_TURN_BANNER">
+			<Text>Din tur!</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YOU_CANNOT_MOVE_HERE">
+			<Text>Du kan ikke flytte hertil.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_YOU_CANNOT_MOVE_HERE_AT_THIS_TIME">
+			<Text>Du kan ikke flytte hertil lige nu.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_ZOMBIES_DEFENSE_BONUS_VS_RANGED_COMBAT_MODIFIER">
+			<Text>+{1_Amount} zombiemodstand mod afstandsangreb</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_policIES">
+			<Text>politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="PLAYERACTION_FRIENDREQUEST">
+			<Text>Tilføj som ven</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="PLAYERACTION_FRIENDREQUEST_TOOLTIP">
+			<Text>Tilføj denne spiller som ven på Steam.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="PLAYERACTION_KICKPLAYER">
+			<Text>Smid spiller ud</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="PLAYERACTION_KICKPLAYER_TOOLTIP">
+			<Text>Smid denne spiller ud af spillet.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="SANGUINE_PACT_VAMPIRE_BARB_COMBAT_STRENGTH_DESC">
+			<Text>+{Property} fra barbarer, der er døde nær vampyren</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="SANGUINE_PACT_VAMPIRE_COMBAT_STRENGTH_DESC">
+			<Text>+{Property} fra enheder, der er døde nær vampyren</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="SANGUINE_PACT_VAMPIRE_INIMIDATE_DESC">
+			<Text>{1_Amount} fra en vampyr i nærheden</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TRAIT_CIVILIZATION_IMPROVEMENT_MONASTERY_NAME">
+			<Text>Unik forbedring: Kloster</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TRAIT_CIVILIZATION_UNIT_FRANKISH_CABALLARII_NAME">
+			<Text>Frankisk unik enhed: Caballarii</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TRAIT_CIVILIZATION_UNIT_MOORISH_FARFANES_NAME">
+			<Text>Andalusisk unik enhed: Farfanes</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TRAIT_CIVILIZATION_UNIT_QUADRIREME_NAME">
+			<Text>Byzantinsk unik enhed: Kvadrireme</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_CROSSPLAY_AUTHORIZATION_ERROR_MESSAGE">
+			<Text>Der opstod et problem under valideringen af din Steam-konto.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_CROSSPLAY_CREATE_USER_ERROR_MESSAGE">
+			<Text>Der opstod et problem under oprettelsen af et Unified Play ID til din konto.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_CROSSPLAY_LOGIN_ERROR_MESSAGE">
+			<Text>Der opstod en fejl under dit loginforsøg.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_CROSSPLAY_LOGIN_ERROR_TITLE">
+			<Text>Loginfejl</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_CROSSPLAY_OK">
+			<Text>OK</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_EOS_INVITE_TEXT">
+			<Text>En ven har inviteret dig til et flerspillerspil. Vil du deltage i spillet?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_EOS_INVITE_TEXT_IN_GAME">
+			<Text>En ven har inviteret dig til et flerspillerspil. Vil du deltage i spillet? Dine nuværende fremskridt bliver ikke gemt.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_EOS_INVITE_TITLE">
+			<Text>Invitation anmodet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_EOS_PLAYER_INVITE_TEXT">
+			<Text>{1_PlayerName} har inviteret dig til et flerspillerspil. Vil du deltage i spillet?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_EOS_PLAYER_INVITE_TEXT_IN_GAME">
+			<Text>{1_PlayerName} har inviteret dig til et flerspillerspil. Vil du deltage i spillet? Dine nuværende fremskridt bliver ikke gemt.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_EPIC_MY2K_MODE_UNLINKED_TOOLTIP">
+			<Text>Opret en 2K-konto for at låse op for belønningerne Spejderkat og Julius Cæsar (kræver genstart af spillet) og aktivere gem i skyen på tværs af platforme, så du kan starte dit spil på Epic og fortsætte det på andre platforme. Desuden får du de seneste nyheder om Sid Meier’s Civilization!</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MOTD">
+			<Text>Indgående meddelelse</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MP_LAST_PLAYER">
+			<Text>Du er den sidste tilbageværende menneskelige spiller i spillet.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MP_LAST_PLAYER_TITLE">
+			<Text>Helt alene</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MP_SWAP_BUTTON_TT">
+			<Text>Skift til denne spillerplads.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MP_SWAP_WITH_PLAYER_BUTTON_TT">
+			<Text>Skift kun til denne spillerplads, hvis den anden spiller også vælger at skifte.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K">
+			<Text>2K-konto</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_ALREADY_LINKED">
+			<Text>Platformskontoen er allerede knyttet til en 2K-konto.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_CANCEL">
+			<Text>Annuller</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_CONNECTION_ISSUE">
+			<Text>Forbindelsesproblem</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_CONNECTION_RESTORED">
+			<Text>Forbindelsen er genoprettet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_CREATE_NEW_USER">
+			<Text>Opret ny bruger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_CREATE_NEW_USER_MESSAGE">
+			<Text>For at oprette en 2K-konto skal du indtaste en gyldig e-mailadresse i feltet nedenfor. Der bliver sendt en bekræftelsesmail til adressen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_FIRAXIS_LIVE_NOT_CONNECTED">
+			<Text>Der kunne ikke oprettes forbindelse til Civilization VI. Funktioner i Civilization VI er muligvis ikke tilgængelige.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_LINK_ACCOUNT_TITLE">
+			<Text>Tilknyt konto</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_LINK_TO_EXISTING">
+			<Text>Tilknyt eksisterende konto</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_LOGIN_PENDING">
+			<Text>Login på konto afventer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_LOGIN_USER">
+			<Text>Log ind</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_LOGOUT_MESSAGE">
+			<Text>Vil du logge ud?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_LOGOUT_TITLE">
+			<Text>Log ud</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_NO">
+			<Text>Nej</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_OK">
+			<Text>OK</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_READ">
+			<Text>Læs</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_SIGN_UP">
+			<Text>Tilmeld</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_SIGN_UP_TITLE">
+			<Text>Opret en 2K-konto</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_SILENT_LOGIN_FAILURE_MESSAGE">
+			<Text>Du skal logge manuelt ind på din 2K-konto.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_SILENT_LOGIN_FAILURE_TITLE">
+			<Text>Meddelelse om lydløst login</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_UNABLE_TO_LINK_ACCOUNT">
+			<Text>Platformskontoen kunne ikke knyttes til din 2K-konto.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_UNLINK_ACCOUNT">
+			<Text>Er du sikker på, at du vil fjerne tilknytningen til din 2K-konto? Du kan administrere din konto eller læse de juridiske vilkår og privatlivspolitikkerne online på www.2k.com.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_UNLINK_ACCOUNT_TITLE">
+			<Text>Fjern tilknytning af konto</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_WELCOME_BACK_MESSAGE">
+			<Text>Logget ind.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_WELCOME_BACK_TITLE">
+			<Text>Velkommen tilbage!</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_ADDITION_YES">
+			<Text>Ja</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_MODE_AGE_RESTRICTED">
+			<Text>Aldersbegrænset</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_MODE_AGE_RESTRICTED_TOOLTIP">
+			<Text>Den alder, der er knyttet til denne 2K-konto, opfylder ikke de lovmæssige alderskrav for adgang til visse dele af spillet. Kontakt kundesupport for at få hjælp.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_MODE_ANONYMOUS">
+			<Text>Offline</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_MODE_LINKED_OFFLINE">
+			<Text>Tilknyttet – offline</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_MODE_LINKED_ONLINE">
+			<Text>Tilknyttet – online</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_MODE_LINKED_TOOLTIP">
+			<Text>2K-konto tilknyttet. Gem i skyen på tværs af platforme er aktiveret. Belønningerne Spejderkat og Julius Cæsar er låst op (se under “Ekstra indhold”).</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="TXT_KEY_MY2K_MODE_UNLINKED_TOOLTIP">
+			<Text>Opret en 2K-konto for at låse op for belønningerne Spejderkat og Julius Cæsar (kræver genstart af spillet) og aktivere gem i skyen på tværs af platforme, så du kan starte dit spil og fortsætte det på andre platforme. Desuden får du de seneste nyheder om Sid Meier’s Civilization!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

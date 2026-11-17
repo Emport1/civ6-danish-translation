@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for the Civilization VI mod Detailed Map Tacks -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_DMT_AUTO_DELETE_MAP_TACK_HINT">
+			<Text>Vil du slette kortnåle automatisk?</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_CANNOT_PLACE_ON_REASON">
+			<Text>Kan ikke placeres på {1_Name}.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_GOLDEN_GATE_BRIDGE_REASON">
+			<Text>Broen skal gå lige over feltet mellem to landfelter, der ligger direkte over for hinanden. Der skal være mindst ét vandfelt på både venstre og højre side af broen.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_INVALID_DAM_PLACEMENT_REASON">
+			<Text>Der kan kun bygges én dæmning langs hver flods flodslette (den spiller, der først fuldfører en, får den), og floden skal løbe langs mindst to af dæmningsfeltets sider.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_MUST_PLACE_ADJACENT_TO_CAPITAL_REASON">
+			<Text>Skal bygges ved siden af din [ICON_CAPITAL] hovedstad.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_MUST_PLACE_ON_CORRECT_FEATURES_REASON">
+			<Text>Skal placeres på de rigtige terrænelementer.</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_OPTIONS_HOTKEY_ADD_MAP_TACK">
+			<Text>Tilføj kortnål</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_OPTIONS_HOTKEY_CATEGORY">
+			<Text>Detaljerede kortnåle</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_OPTIONS_HOTKEY_DELETE_MAP_TACK">
+			<Text>Slet kortnål</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_OPTIONS_HOTKEY_TOGGLE_MAP_TACK_VISIBILITY">
+			<Text>Vis/skjul kortnåle</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_YIELD_FROM_MODIFIER_DEFAULT">
+			<Text>{1_Value : number +#.#;-#.#} {2_YieldType} fra modifikatorer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_DMT_YIELD_FROM_MODIFIER_NAME">
+			<Text>{1_Value : number +#.#;-#.#} {2_YieldType} fra {3_Name}</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

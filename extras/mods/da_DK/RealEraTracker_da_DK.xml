@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for the Civilization VI mod Real Era Tracker -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_RET_BUTTON_LABEL">
+			<Text>Æra-oversigt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_CHECKBOX_HIDE_NOT_ACTIVE">
+			<Text>Skjul inaktive</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_CHECKBOX_HIDE_NOT_AVAILABLE">
+			<Text>Skjul dem fra andre æraer og dem, der ikke er tilgængelige nu</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_CHECKBOX_SHOW_ONLY_EARNED">
+			<Text>Vis kun opnåede</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_COUNT">
+			<Text>Antal</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_FAVORED">
+			<Text>Foretrukket</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_REPEATABLE">
+			<Text>Kan gentages</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_WINDOW_TITLE">
+			<Text>Æra-oversigt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_RET_WORLD">
+			<Text>Verden</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

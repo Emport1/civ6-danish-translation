@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Danish text for 5 Civ VI UI mods: Better Builder Charges Tracking, Extended Policy Cards, Policy Change Reminder, Quick Deals, Sukritact's Simple UI Adjustments -->
+<!-- Danish text for the Civilization VI mod Sukritact's Simple UI Adjustments -->
 <GameData>
 	<LocalizedText>
-		<Replace Language="da_DK" Tag="LOC_QD_OPTIONS_HOTKEY_OPEN_POPUP">
-			<Text>Åbn Hurtige handler</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_OPTIONS_HOTKEY_OPEN_POPUP_DESCRIPTION">
-			<Text>Åbner vinduet Hurtige handler. Af tekniske grunde skal vinduet lukkes med Esc.</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_NAME">
-			<Text>Hurtige handler</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_SALE">
-			<Text>Salg</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_EXCHANGE">
-			<Text>Veksling</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_EACH">
-			<Text>Pr. stk.</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_NO_AVAILABLE_DEAL">
-			<Text>Ingen mulige handler.</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_NEW_DEALS_AVAILABLE">
-			<Text>Der er nye handler.</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_ALL_GOLD_HINT">
-			<Text>De har budt alt det guld, de har.</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_BULK_ADD">
-			<Text>[COLOR_Civ6Red]Hold Ctrl nede for at tilføje flere.[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_CONVERT_ALL">
-			<Text>Højreklik for at omregne det hele.</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_YOU_NEED">
-			<Text>Du skal bruge</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_RATIO">
-			<Text>Forhold</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER">
-			<Text>Virker ikke i flerspiller.</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_TITLE">
-			<Text>Du har nye politikkort</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_DESC">
-			<Text>Du har lige låst op for nye politikkort.[NEWLINE]Det er gratis at skifte politikker og styreform i denne tur.[NEWLINE][NEWLINE]Vil du fortsætte uden at skifte?</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_CHANGE">
-			<Text>Skift politikker</Text>
-		</Replace>
-		<Replace Language="da_DK" Tag="LOC_FF16_NEWPOLICY_CONTINUE">
-			<Text>Næste tur</Text>
-		</Replace>
 		<Replace Language="da_DK" Tag="LOC_SUK_SCREENSHOT_MODE_NAME">
 			<Text>Skærmbilledtilstand</Text>
 		</Replace>

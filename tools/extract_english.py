@@ -10,8 +10,10 @@ Usage:
 The output maps every text tag to {"en": text, "file": path}. When several packs define
 the same tag, the version the game uses with Gathering Storm wins: Expansion2 (Gathering
 Storm), then Expansion1 (Rise and Fall), then other DLC, then the base game; scenario and
-game-mode packs rank lowest. This is the English the Danish package was translated from,
-and what tools/check_package.py compares against.
+game-mode packs rank lowest. Other English versions of the same tag (for example two
+scenarios that word a line differently) are kept under "other_versions". This is the
+English the Danish package was translated from, and what tools/check_package.py compares
+against.
 
 The English text belongs to Firaxis/2K: keep english.json on your own computer and do
 not commit it.
@@ -101,8 +103,16 @@ def main():
                 versions.setdefault(tag, []).append((prio, rel, text))
     corpus = {}
     for tag, vs in versions.items():
-        best = max(vs, key=lambda v: v[0])
+        # highest priority wins; ties (e.g. two scenario packs) go to the first path in sort order
+        vs.sort(key=lambda v: (-v[0], v[1]))
+        best = vs[0]
         corpus[tag] = {'en': best[2], 'file': best[1]}
+        others = []
+        for v in vs[1:]:
+            if v[2] != best[2] and v[2] not in [o['en'] for o in others]:
+                others.append({'en': v[2], 'file': v[1]})
+        if others:
+            corpus[tag]['other_versions'] = others
     with open(out_path, 'w', encoding='utf-8') as fh:
         json.dump(corpus, fh, ensure_ascii=False, indent=0, sort_keys=True)
     print('%d English tags from %d files -> %s' % (len(corpus), files, out_path))

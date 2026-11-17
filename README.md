@@ -35,7 +35,7 @@ leader dialogue and the whole Civilopedia. The game's own files are not changed.
 Linux: `~/.local/share/aspyr-media/Sid Meier's Civilization VI/`). Skriv gerne et issue, hvis
 det virker eller ikke virker.
 
-**Mods:** dansk tekst til 13 populære brugerflade-mods ligger i [`extras/mods`](extras/mods).
+**Mods:** dansk tekst til 9 populære brugerflade-mods (én fil pr. mod) ligger i [`extras/mods`](extras/mods).
 
 **Fundet en fejl?** Opret et [issue](https://github.com/Emport1/civ6-danish-translation/issues/new/choose)
 med et skærmbillede, eller ret den selv (se [CONTRIBUTING.md](CONTRIBUTING.md)).
@@ -78,6 +78,14 @@ translated with Claude Opus 5.5 in 113 chunks:
 The package has been played on Windows (menus, the tutorial and normal games, including
 LAN games). Not every line has been proofread by a person yet, so corrections are very
 welcome.
+
+### Known issues
+
+- A few scenario lines exist in two scenarios with different English wording, for example
+  the Viking and Alexander scenarios' Great General ability. The game keeps one text per
+  line for an added language, so in one of the two scenarios such a line describes the
+  other scenario's version. `tools/check_package.py --english` lists them as "shared".
+- Text added by game updates after November 2026 shows in English until it is translated.
 
 ### Credits
 

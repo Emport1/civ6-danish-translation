@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish text for the Civilization VI mod Better Report Screen -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="da_DK" Tag="LOC_BRS_BARRIER">
+			<Text>Barriere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_BARRIER_MAINTENANCE">
+			<Text>Vedligeholdelse af stormflodsbarriere</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_DETAILS">
+			<Text>Skjul byens detaljer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_FREE_BUILDINGS">
+			<Text>Skjul gratis bygninger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_FREE_UNITS">
+			<Text>Skjul gratis enheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_INACTIVE_POLICIES">
+			<Text>Skjul inaktive politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_NOT_MET_MINORS">
+			<Text>Skjul bystater, du ikke har mødt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_NO_IMPACT_MINORS">
+			<Text>Skjul bystater uden virkning</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CHECKBOX_HIDE_NO_IMPACT_POLICIES">
+			<Text>Skjul politikker uden virkning</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CO2">
+			<Text>CO2</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CURRENT_DEALS_INCOMING">
+			<Text>Indgående</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_CURRENT_DEALS_OUTGOING">
+			<Text>Udgående</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_FROM_MODIFIERS">
+			<Text>Fra modifikatorer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_FROM_MODIFIERS_PERCENT">
+			<Text>Fra modifikatorer [COLOR_White]%[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HAVING_DISTRICTS">
+			<Text>For at have {1_Num : plural 1?{1} distrikt; other?{1} distrikter;}</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_BUILDINGCOUNT">
+			<Text>Antal bygninger/distrikter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_BUILDINGNAME">
+			<Text>Bygning/distrikt</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_CLASS">
+			<Text>Klasse</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_GROWTH">
+			<Text>Vækst</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_HAPPINESS">
+			<Text>Lykke</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_HEALTH">
+			<Text>Helbred</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_LEVEL">
+			<Text>Niveau</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_MISSION">
+			<Text>Mission</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_NUM_CHARGES">
+			<Text>Ladninger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_POLICY_NAME">
+			<Text>Politik</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_ROUTE">
+			<Text>Handelsrute</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_TYPE">
+			<Text>Type</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_HEADER_YIELDS">
+			<Text>Udbytte</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_DARKAGE">
+			<Text>Politikker for mørk tidsalder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_DIPLOMATIC">
+			<Text>Diplomatiske politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_ECONOMIC">
+			<Text>Økonomiske politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_GREAT_PERSON">
+			<Text>Politikker for store personligheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_LEGACY">
+			<Text>Arvepolitikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_POLICY_GROUP_SLOT_MILITARY">
+			<Text>Militære politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_PROD_BUILDINGS">
+			<Text>Til bygninger</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_PROD_DISTRICTS">
+			<Text>Til distrikter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_PROD_UNITS">
+			<Text>Til enheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_SPECIALISTS">
+			<Text>Specialister</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_TOOLTIP_GARRISON">
+			<Text>Garnison</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_TOOLTIP_GOTOCITY">
+			<Text>Gå til denne by</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_TOOLTIP_LOOKATUNIT">
+			<Text>Vis denne enhed på kortet</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_AIR">
+			<Text>Militær – luft</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_CIVILIAN">
+			<Text>Civile</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_GREAT_PERSON">
+			<Text>Store personligheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_LAND_COMBAT">
+			<Text>Militær – land</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_NAVAL">
+			<Text>Militær – flåde</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_RELIGIOUS">
+			<Text>Religiøse</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_SPY">
+			<Text>Spioner</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_SUPPORT">
+			<Text>Støtte</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_BRS_UNITS_GROUP_TRADER">
+			<Text>Handelsmænd</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_CITIES">
+			<Text>Byer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_CITIES2">
+			<Text>[ICON_Power]Byer</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_DEALS">
+			<Text>Aftaler</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_MINORS">
+			<Text>Bystater</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_POLICIES">
+			<Text>Politikker</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_HUD_REPORTS_TAB_UNITS">
+			<Text>Enheder</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_UI_REPORTS">
+			<Text>Vis/skjul rapporter</Text>
+		</Replace>
+		<Replace Language="da_DK" Tag="LOC_OPTIONS_HOTKEY_UI_REPORTS_HELP">
+			<Text>Viser eller skjuler rapportskærmen</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Danish text for the Civ VI mod Detailed Wonder Reminder -->
+<!-- Danish text for the Civilization VI mod Detailed Wonder Reminder -->
 <GameData>
 	<LocalizedText>
 		<Replace Language="da_DK" Tag="LOC_KNM_REMINDER_BUILDING">

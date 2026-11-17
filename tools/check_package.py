@@ -80,14 +80,22 @@ def main():
                 seen[tag] = os.path.basename(f)
                 rows[tag] = text.text or ''
 
-    missing, unknown = [], []
+    missing, unknown, shared = [], [], []
     if args.english:
         english = json.load(open(args.english, encoding='utf-8'))
         for tag, da in rows.items():
             if tag not in english:
                 unknown.append(tag)
                 continue
-            for e in validate.check(tag, english[tag]['en'], da):
+            errs = validate.check(tag, english[tag]['en'], da)
+            if errs:
+                alt = next((o for o in english[tag].get('other_versions', [])
+                            if not validate.check(tag, o['en'], da)), None)
+                if alt:
+                    # the tag has several English versions (e.g. two scenarios); the Danish follows another one
+                    shared.append((tag, alt['file']))
+                    continue
+            for e in errs:
                 errors.append('%s: %s' % (tag, e))
         missing = sorted(t for t, v in english.items() if v['en'].strip() and t not in rows)
 
@@ -99,6 +107,9 @@ def main():
         print('%d Danish rows have no English tag in your game (other game version or a mod)' % len(unknown))
         for t in unknown[:args.show]:
             print('  unknown', t)
+        print('%d Danish rows follow another English version of a shared tag (see README, known issues)' % len(shared))
+        for t, f in shared[:args.show]:
+            print('  shared %s (matches %s)' % (t, f))
     if errors:
         for e in errors[:args.show * 10]:
             print('ERROR', e)

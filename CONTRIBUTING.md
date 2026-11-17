@@ -45,7 +45,7 @@ Danish or English are both fine.
 |---|---|
 | `Text/LocalizationDatabase_Data.sql` | Registers the language `da_DK` ("Dansk") with English as fallback |
 | `Text/da_DK/Danish_*.xml` | The translation, sorted by tag |
-| `extras/mods/` | Danish text for 13 user-interface mods |
+| `extras/mods/` | Danish text for 9 user-interface mods, one file per mod |
 | `tools/validate.py` | The line checker (codes, icons, plural/gender branches, leftover English) |
 | `tools/check_package.py` | Checks the files, optionally against your game's English |
 | `tools/extract_english.py` | Reads the English text from your installed game |
